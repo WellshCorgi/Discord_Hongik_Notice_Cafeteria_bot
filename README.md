@@ -7,4 +7,7 @@ Used pakage -> requests, BeautifulSoup4, schedule, datatime, time
 ## Files
 'Hongik_notice_Cafeteria.py' is written in Python and is a working file.
 
+### Updates
+2022/11/08 -> When executing code, I can check an errors. Completeing partial of Function [cycle]
+
 Thanks for the advice --J-hoplin / https://github.com/J-hoplin1
