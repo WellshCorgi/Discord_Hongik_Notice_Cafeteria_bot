@@ -24,6 +24,7 @@ def cycle(date): # A function that retrieves a date and finds a dictionary value
     days=["mon","tue","wed","thr","fri"] 
     day = date.weekday()
     print(days[day] if day == "sat" or "sun" else "주말에는 B동 학식을 운영하지 않습니다")
+    return days[day] # amend part -> version upgrade
     
 def find_menu(): # A function that prints an error message when there is no data in the site
     if not dictionary['mon']:
