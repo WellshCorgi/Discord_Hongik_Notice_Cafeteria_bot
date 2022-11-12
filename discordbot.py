@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime,date
 
 
-TOKEN = 'put your discord-bot Token'
+TOKEN = 'put your bot token'
 intents = discord.Intents.default()
 bot = Bot(command_prefix='!', intents=intents)
 @bot.event
@@ -34,7 +34,6 @@ async def menu(message):
   def cycle(date): # A function that retrieves a date and finds a dictionary value
       days=["mon","tue","wed","thr","fri"] 
       day = date.weekday()
-      print(days[day] if day == "sat" or "sun" else "주말에는 B동 학식을 운영하지 않습니다")
       return day # amend part -> version upgrade   
             
   embed = discord.Embed(title="B동(세움관) 학교식당 중식 메뉴입니다.",description="",color=0x0aa40f)
