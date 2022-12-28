@@ -4,12 +4,9 @@
 2. Detailed Description : Python으로 'Beautifulsoup4'과 'Discord Bot module'을 사용한 디스코드 알림 개발 프로그램(Discord notification development program using Beautifulsoup4 and Discord bot module with Python)
 ---
 ## Project Overview
--매일 오전 10시 30분에 디스코드를 통하여 홍익대학교 식당 메뉴를 알림 받고 사용자가 원할 때, '!menu'를 입력하여 당일 메뉴의 정보를 받을 수 있다
-To notice about Hongik University's cafeteria menu at every 10:30am on Discord,
-When the user enters '!menu' in the chat room when user want, the information about the menu is informed through the UI
+1. 매일 오전 10시 30분에 디스코드를 통하여 홍익대학교 식당 메뉴를 알림 받고 사용자가 원할 때, '!menu'를 입력하여 당일 메뉴의 정보를 받을 수 있다(To notice about Hongik University's cafeteria menu at every 10:30am on Discord, When the user enters '!menu' in the chat room when user want, the information about the menu is informed through the UI)
 
--도커 이미지를 통해 컨테이너에 적용하였고 배포하였습니다.
-It works by distributing 'centos/python-38-centos7' through a docker as a base image through a container
+2. 도커 이미지를 통해 컨테이너에 적용하였고 배포하였습니다. (It works by distributing 'centos/python-38-centos7' through a docker as a base image through a container)
 ---
 
 ## How to use?
