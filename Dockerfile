@@ -9,9 +9,8 @@ FROM docker.io/centos/python-38-centos7
 
 # 개발 소스 폴더 copy 
 WORKDIR /src
-COPY . /src
 COPY requirements.txt /src/
 RUN pip install -r requirements.txt
-EXPOSE 80
+
 # 실행 명령어
 CMD [ "python", "discordbot.py" ]
