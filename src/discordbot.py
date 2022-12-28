@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime,date
 
 
-TOKEN = ''
+TOKEN = '___'
 intents = discord.Intents.default()
 bot = Bot(command_prefix='!', intents=intents)
 @bot.event
